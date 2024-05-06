@@ -9,9 +9,6 @@
         static AccountManager accountManager = new AccountManager(bank, converter);
         static ClientManager clientManager = new ClientManager(accountManager, depositManager);
 
-        // withdraw deposit - check decrease in bank
-        // show all deposits - write normal to string
-
         static void Main(string[] args)
         {
             Seed();
